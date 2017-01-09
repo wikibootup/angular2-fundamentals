@@ -19,7 +19,6 @@ import { MailService } from './mail.service';
   ],
   providers: [
     { provide:'mail', useClass: MailService },
-    { provide:'api', useValue: 'http://localhost4200' }
   ],
   bootstrap: [AppComponent]
 })
