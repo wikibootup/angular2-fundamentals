@@ -15,7 +15,12 @@ import { Component, Inject } from '@angular/core';
       >
     </app-simple-form>
 
-  </div>`
+  </div>`,
+  styles: [`
+    app-simple-form {
+      margin-bottom: 10px;
+    }
+  `]
 })
 export class AppComponent {
 
